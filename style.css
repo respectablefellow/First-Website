@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
     box-sizing:content-box;
 }
 .container{
@@ -15,6 +16,7 @@
     flex-direction: row;
     align-items: center;
     font-size: 30px;
+    color: aliceblue;
 }
 .links ul{
     display: flex;
@@ -23,4 +25,26 @@
 }
 .links li{
     padding: 30px;
+    list-style-type:none;
+    margin-top: 10px;
+    color: aliceblue;
 }
+.disclaimer{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 25px;
+}
+.header{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+.info {
+    max-width: 200px;
+  }
